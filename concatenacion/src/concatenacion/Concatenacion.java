@@ -17,11 +17,12 @@ static Scanner dato = new Scanner(System.in);
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("\nIntroduce tu Nombre. \n");
-        String datos = dato.nextLine();
-        System.out.println("\nIntroduce tu apellido\n");
-        String datos2 = dato.nextLine();
-        System.out.println(datos + datos2);
+        System.out.println("\nIntroduce tu Nombre: \n");
+        String nombre = dato.nextLine();
+        System.out.println("\nIntroduce tu apellido: \n");
+        String apellido = dato.nextLine();
+        System.out.println("Nombre completo: " +nombre + apellido);
+        
     }
     
 }
